@@ -1,108 +1,116 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Star Wars Quiz
 
-Welcome James Croxson,
+The Dirty Bird is a Late night Cocktail & Gin Lounge in located in Bristol, Clifton Area just situated off Kind's Road. 
+This website is inteded for people who seek out late night cocktail and Gin lounge. The website will feature a home page, drinks, bookings and contact pages. Within these pages the user can navigate through with ease and gain all information about the bar as they require.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive mockup](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/dirtybirdresponisvness.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Click to visit [The Dirty Bird, Bristol](https://jamescrox.github.io/The_Dirty_Bird/index.html)
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - The navigation bar is simple but effective. You will know what page you are on by used of a simple underline on the active page. 
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/navbar.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - As you navigate through the home page the user will find imagary of the bar, a section for upcoming events, a small gallery of images and a contact and opening times section.
+  - The events section will keep the user informed of any upcoming events happening within the venue.
 
-A blue button should appear to click: _Make Public_,
+![Landing Page](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/landingpage.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __Gallery Section__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The gallery will be a responsive and interactive gallery that will feature a rollover animation. Following the gallery is a small section that shows the user the opening and closing times of the venue and a small contact section. 
+  - The gallery has a hover effect where the images will turn grayscale when hovered over with the mouse. I got this idea from a project I saw on [Codepen.io](https://codepen.io/trending).
+  - The Flexbox method was used on this gallery for responsivness.
 
-To log into the Heroku toolbelt CLI:
+![Gallery Section](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/landingpage2.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Opening Times and Contact section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section show the opening and closing times of the Bar. 
+  - I also included the Contact Details of the venue address and the email address. 
 
-------
+![Opening Times and Contact Section](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/openingcontact.png)
 
-## Release History
+- __The Footer__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The footer section includes links to the Dirty Bird social media sites, Facebook and Instagram. These links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Footer](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/footer.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Drinks__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - Moving on to the Drinks page, the user will be able to see what is on offer at this venue. I will have this laid out as a simple menu with discriptions of drinks. The menu will be broken down into 4 different sections and have a matching picture for their section.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - This section is valuable to the user as they will be able to easily identify the types of drinks that are served in the venue.. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Drinks](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/drinkspage.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __Bookings__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - Bookings page will have a Form for conacting the venue about any specific booking equiries that the user may have wether it be about booking a table or the venue as a whole, cocktail master classes or any other events they may be looking for.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Bookings page](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/bookingpage.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- __Contact__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  -  The contact page will be another form which will give the user means of getting in contact with the Venue. They will have a interactive Map on this page where they will be able to get directions to the venue from Google maps. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Contact](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/contactpage.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+While testing throughout the project iI ran into a few bugs that I managed to resolve myself.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Center Align
+  - I had some trouble at the start of the project with getting the navigation to center align, but I think this was purely because I didn't understand the correct code.
+- Errors that occured when using validating code.
+  - A few minor errors that were easy to fix on the booking form. 
+      - Adding a min and max value for a text box. not needed removed.
+      - Adding fixed value to a textarea box. Removed and targeted in CSS 
+  - Using width % value on iframe. Tageted in css and style appropriately. 
+  - Duplicate IDs used on one page. Chaned them to classes instead
+  - Using a H5 element within a table. Removed and used em element. Targeted in Css and styled appropriately.
+  - Some minor fixes when using the table data and table rows elements. Removed images from inside the table that were causing errors.
+  - Improper use of Aria lables - removed 
 
-------
+### Validator Testing 
 
-## FAQ about the uptime script
+- Accessability
 
-**Why have you added this script?**
+  ![Google Lighthouse](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/lighthousescore.png)
+  - 100% Accessability Score via Google Lighthouse generated report 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamescrox.github.io%2FThe_Dirty_Bird%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamescrox.github.io%2FThe_Dirty_Bird%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Deployment
 
-**How will this affect me?**
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings then Pages Tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The live link can be found here - https://jamescrox.github.io/The_Dirty_Bird/index.html 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Credits 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Content 
 
-**So….?**
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Favicon from [favicon.cc](https://www.favicon.cc/?action=icon&file_id=913973)
+- Fonts from [Google Fonts](https://fonts.google.com/) 
+  - [Pathway Gothic One](https://fonts.google.com/specimen/Pathway+Gothic+One?query=pathway)
+  - [Montserrat](https://fonts.google.com/specimen/Montserrat?query=Montserrat)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Media
 
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- All photos used on pages were supplied to me by the dirty bird management. All photos were taken by Nic Pedron.
