@@ -48,6 +48,7 @@ h1{
     width: 25rem;
     margin-bottom: 1.5rem;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .btn:hover{
     box-shadow: 0 0.3rem 1.2rem 0 rgb(67, 46, 255);
