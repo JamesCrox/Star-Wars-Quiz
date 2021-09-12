@@ -1,0 +1,62 @@
+/* google fonts import code */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pathway+Gothic+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+body {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    background-image: url('../images/sw-bg.jpg');
+}
+/* home page styling */
+.start-container{
+    width: 100vw;
+    height: 100vh;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.flex-column-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center-container{
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 4.5rem;
+    color: #ffc300;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.btn{
+    text-align: center;
+    font-size: 2rem;
+    color: #a7a7a7;
+    background-color:rgba(0, 0, 0, 0.74);
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2rem 0;
+    width: 25rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0.3rem 1.2rem 0 rgb(67, 46, 255);
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+.highscores-btn:hover{
+    box-shadow: 0 0.3rem 1.2rem 0 rgb(255, 46, 46);
+}
+.fa-trophy{
+    font-size: 1.7rem;
+}
