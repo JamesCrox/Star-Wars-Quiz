@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 65%;
     font-family: 'Pathway Gothic One', sans-serif;
 }
 body {
@@ -16,7 +17,7 @@ body {
 .container{
     width: 100vw;
     height: 100vh;
-    max-width: 80rem;
+    max-width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,6 +146,34 @@ h1, #question{
 .high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
+}
+/* End Game Page Styling */
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+input {
+    background-color:rgba(0, 0, 0, 0.74);
+    border: 1px solid #a7a7a7;
+    border-radius: 15px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.5rem 0 rgb(255, 205, 97);
+}
+#end-text{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+#username{
+    padding-left: 0.5rem;
 }
 
 /* media query for responsivness */
