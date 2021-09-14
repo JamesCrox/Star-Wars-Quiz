@@ -79,4 +79,18 @@ let questions = [{
       answer: '2'
    }
 ];
+let question = document.getElementById('question');
+let choices = Array.from(document.querySelectorAll('.choice-text'))
+let progressText = document.getElementById('progressText')
+let scoreText = document.getElementById('score')
+let progressBarFull =document.getElementById('progressBarFull')
 
+function startGame(){
+
+}
+function getNewQuestion(){
+
+}
+function incrementScore(){
+
+}
