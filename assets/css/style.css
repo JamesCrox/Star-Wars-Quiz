@@ -119,9 +119,11 @@ h1, #question{
     transform: scale(1.02);
 }
 .choice-prefix{
+    font-size: 1.7rem;
     padding: 2rem 2.5rem;
 }
 .choice-text{
+    font-size: 2rem;
     padding: 2rem;
     width: 100%;
 }
@@ -139,14 +141,15 @@ h1, #question{
 #highScore{
     color: #fff;
 }
-#highScoresList {
+#highScoreList {
     list-style: none;
     margin-bottom: 4rem;
 }
 .high-score {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
+
 /* End Game Page Styling */
 .end-form-container{
     width: 100%;
@@ -155,30 +158,46 @@ h1, #question{
     align-items: center;
     max-width: 30rem;
 }
+.final-score-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    color: #ffc300;
+}
 input {
-    background-color:rgba(0, 0, 0, 0.74);
     border: 1px solid #a7a7a7;
-    border-radius: 15px;
-    color: #fff;
+    border-radius: 5px;
     margin-bottom: 1.5rem;
     width: 20rem;
     padding: 1rem;
     font-size: 1.3rem;
     border: none;
-    box-shadow: 0 0.1rem 1.5rem 0 rgb(255, 205, 97);
 }
 #end-text{
     text-transform: uppercase;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
 #username{
     padding-left: 0.5rem;
 }
+.fa-home{
+    font-size: 1.7rem;
+}
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
 
 /* media query for responsivness */
-@media screen and (max-width: 768px){
-    .choice-container{
-        min-width: 40rem;
+@media screen and (max-width: 450px) {
+
+    .choice-container {
+        min-width: 30rem;
+    }
+
+    h1#question {
+        font-size: 2.3rem;
     }
 }

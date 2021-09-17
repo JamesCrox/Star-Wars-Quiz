@@ -79,18 +79,84 @@ let questions = [{
       answer: '2'
    }
 ];
-let question = document.getElementById('question');
+
+let question = document.getElementById('question')
 let choices = Array.from(document.querySelectorAll('.choice-text'))
 let progressText = document.getElementById('progressText')
 let scoreText = document.getElementById('score')
-let progressBarFull =document.getElementById('progressBarFull')
+let progressBarFull = document.getElementById('progressBarFull')
 
-function startGame(){
+let currentQuestion = {}
+let acceptingAnswers = true
+let score = 0
+let questionCounter = 0
+let availableQuestions = []
 
+let SCORE_POINTS = 100
+let MAX_QUESTIONS = 10
+
+// start game function
+function startGame() {
+   questionsCounter = 0
+   score = 0
+   availableQuestions = [...questions]
+   getNewQuestion()
+
+};
+
+// function to call new questions
+function getNewQuestion() {
+   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+      localStorage.setItem('mostRecentScore', score)
+      return window.location.assign('/end-game.html')
+   }
+
+   // Question counter on main quiz page
+   questionCounter++
+   progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+   progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+
+   const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+   currentQuestion = availableQuestions[questionsIndex]
+   question.innerText = currentQuestion.question
+
+   choices.forEach(choice => {
+      const number = choice.dataset['number']
+      choice.innerText = currentQuestion['choice' + number]
+   })
+
+   availableQuestions.splice(questionsIndex, 1)
+
+   acceptingAnswers = true
 }
-function getNewQuestion(){
 
-}
-function incrementScore(){
+choices.forEach(choice => {
+   choice.addEventListener('click', e => {
+      if (!acceptingAnswers) return
 
+      acceptingAnswers = false
+      const selectedChoice = e.target
+      const selectedAnswer = selectedChoice.dataset['number']
+
+      let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+
+      if (classToApply === 'correct') {
+         incrementScore(SCORE_POINTS)
+      }
+
+      selectedChoice.parentElement.classList.add(classToApply)
+
+      setTimeout(() => {
+         selectedChoice.parentElement.classList.remove(classToApply)
+         getNewQuestion()
+
+      }, 500)
+   })
+})
+// increment score function
+function incrementScore(num) {
+   score += num
+   scoreText.innerText = score
 }
+
+startGame()
