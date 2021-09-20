@@ -1,6 +1,5 @@
 /* google fonts import code */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pathway+Gothic+One&display=swap');
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -161,7 +160,6 @@ h1, #question{
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
-
 /* End Game Page Styling */
 .end-form-container{
     width: 100%;
@@ -193,7 +191,7 @@ input {
 #username{
     padding-left: 0.5rem;
 }
-.fas fa-home{
+.fas, .fa-home{
     font-size: 1.7rem;
 }
 .btn[disabled]:hover {
@@ -201,14 +199,11 @@ input {
     box-shadow: none;
     transform: none;
 }
-
 /* media query for responsivness */
 @media screen and (max-width: 450px) {
-
     .choice-container {
         min-width: 30rem;
     }
-
     h1#question {
         font-size: 2.3rem;
     }
