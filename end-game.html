@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Short Quiz app for Star Wars Fans.">
     <title>My Star Wars Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel='shortcut icon' type='image/x-icon' href='starwarsfavicon.ico'/>
+    <link rel='shortcut icon' type='image/x-icon' href='starwarsfavicon.ico' />
     <script src="https://kit.fontawesome.com/c44c31ddc9.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
@@ -18,12 +21,14 @@
             <form class="end-form-container">
                 <h2 id="end-text">Enter your name below to save your score!</h2>
                 <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" aria-label="Disabled Save button, activates when name is entered" disabled>Save</button>
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)"
+                    aria-label="Disabled Save button, activates when name is entered" disabled>Save</button>
                 <a href="quiz.html" class="btn" aria-label="Play Again button">Play Again</a>
                 <a href="index.html" class="btn" aria-label="Go to the Home page button">Go Home <i class="fas fa-home"></i></a>
-                </form>
+            </form>
         </div>
     </div>
     <script src="assets/js/end-game.js"></script>
 </body>
+
 </html>
