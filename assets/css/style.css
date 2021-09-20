@@ -67,6 +67,18 @@ h1{
 #quiz-page{
     color: #fff;
 }
+.home-restart-btns{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 2rem;
+}
+.home-restart-btns, a{
+    color: #ffc300;
+    font-size: 4rem;
+    padding: 1.2rem;
+    text-decoration: none;
+}
 /* hud styling */
 #hud{
     display: flex;
@@ -181,7 +193,7 @@ input {
 #username{
     padding-left: 0.5rem;
 }
-.fa-home{
+.fas fa-home{
     font-size: 1.7rem;
 }
 .btn[disabled]:hover {
