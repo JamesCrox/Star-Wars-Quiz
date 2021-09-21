@@ -3,33 +3,33 @@
 The Dirty Bird is a Late night Cocktail & Gin Lounge in located in Bristol, Clifton Area just situated off Kind's Road. 
 This website is inteded for people who seek out late night cocktail and Gin lounge. The website will feature a home page, drinks, bookings and contact pages. Within these pages the user can navigate through with ease and gain all information about the bar as they require.
 
-![Responsive mockup](https://github.com/JamesCrox/Star-Wars-Quiz/blob/a86ea294780e97492eb64dff489b7666a38b8433/assets/images/readme-images/starwarsquizresponsivness.png)
+![Responsive mockup](https://github.com/JamesCrox/Star-Wars-Quiz/blob/main/assets/images/readme-images/starwarsquizresponsivness.png?raw=true)
 
 Click to visit [Star Wars Quiz App](https://jamescrox.github.io/Star-Wars-Quiz/index.html)
 
 ## Features 
 
-- __Navigation Bar__
-
-  - The navigation bar is simple but effective. You will know what page you are on by used of a simple underline on the active page. 
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-![Nav Bar]( )
-
-- __The landing page image__
+- __The landing page__
 
   - As you navigate through the home page the user will find imagary of the bar, a section for upcoming events, a small gallery of images and a contact and opening times section.
   - The events section will keep the user informed of any upcoming events happening within the venue.
 
-![Landing Page]()
+![Landing Page](https://github.com/JamesCrox/Star-Wars-Quiz/blob/main/assets/images/readme-images/homepage.png?raw=true )
 
-- __Gallery Section__
+- __HUD__
+
+  - The navigation bar is simple but effective. You will know what page you are on by used of a simple underline on the active page. 
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+![HUD]()
+
+- __Questions and Answers__
 
   - The gallery will be a responsive and interactive gallery that will feature a rollover animation. Following the gallery is a small section that shows the user the opening and closing times of the venue and a small contact section. 
   - The gallery has a hover effect where the images will turn grayscale when hovered over with the mouse. I got this idea from a project I saw on [Codepen.io](https://codepen.io/trending).
   - The Flexbox method was used on this gallery for responsivness.
 
-![Gallery Section]()
+![Q&A's Section](https://github.com/JamesCrox/Star-Wars-Quiz/blob/main/assets/images/readme-images/questionanswers.png?raw=true)
 
 - __Opening Times and Contact section__
 
