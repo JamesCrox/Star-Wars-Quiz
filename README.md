@@ -3,9 +3,9 @@
 The Dirty Bird is a Late night Cocktail & Gin Lounge in located in Bristol, Clifton Area just situated off Kind's Road. 
 This website is inteded for people who seek out late night cocktail and Gin lounge. The website will feature a home page, drinks, bookings and contact pages. Within these pages the user can navigate through with ease and gain all information about the bar as they require.
 
-![Responsive mockup](https://raw.githubusercontent.com/JamesCrox/)
+![Responsive mockup](https://github.com/JamesCrox/Star-Wars-Quiz/blob/a86ea294780e97492eb64dff489b7666a38b8433/assets/images/readme-images/starwarsquizresponsivness.png)
 
-Click to visit [The Dirty Bird, Bristol](https://jamescrox.github.io/The_Dirty_Bird/index.html)
+Click to visit [Star Wars Quiz App](https://jamescrox.github.io/Star-Wars-Quiz/index.html)
 
 ## Features 
 
@@ -14,14 +14,14 @@ Click to visit [The Dirty Bird, Bristol](https://jamescrox.github.io/The_Dirty_B
   - The navigation bar is simple but effective. You will know what page you are on by used of a simple underline on the active page. 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/navbar.png)
+![Nav Bar]( )
 
 - __The landing page image__
 
   - As you navigate through the home page the user will find imagary of the bar, a section for upcoming events, a small gallery of images and a contact and opening times section.
   - The events section will keep the user informed of any upcoming events happening within the venue.
 
-![Landing Page](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/landingpage.png)
+![Landing Page]()
 
 - __Gallery Section__
 
@@ -29,21 +29,21 @@ Click to visit [The Dirty Bird, Bristol](https://jamescrox.github.io/The_Dirty_B
   - The gallery has a hover effect where the images will turn grayscale when hovered over with the mouse. I got this idea from a project I saw on [Codepen.io](https://codepen.io/trending).
   - The Flexbox method was used on this gallery for responsivness.
 
-![Gallery Section](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/landingpage2.png)
+![Gallery Section]()
 
 - __Opening Times and Contact section__
 
   - This section show the opening and closing times of the Bar. 
   - I also included the Contact Details of the venue address and the email address. 
 
-![Opening Times and Contact Section](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/openingcontact.png)
+![Opening Times and Contact Section]()
 
 - __The Footer__ 
 
   - The footer section includes links to the Dirty Bird social media sites, Facebook and Instagram. These links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/footer.png)
+![Footer]()
 
 - __Drinks__
 
@@ -51,19 +51,19 @@ Click to visit [The Dirty Bird, Bristol](https://jamescrox.github.io/The_Dirty_B
 
   - This section is valuable to the user as they will be able to easily identify the types of drinks that are served in the venue.. 
 
-![Drinks](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/drinkspage.png)
+![Drinks]()
 
 - __Bookings__
 
   - Bookings page will have a Form for conacting the venue about any specific booking equiries that the user may have wether it be about booking a table or the venue as a whole, cocktail master classes or any other events they may be looking for.
 
-![Bookings page](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/bookingpage.png)
+![Bookings page]()
 
 - __Contact__
 
   -  The contact page will be another form which will give the user means of getting in contact with the Venue. They will have a interactive Map on this page where they will be able to get directions to the venue from Google maps. 
 
-![Contact](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/contactpage.png)
+![Contact]()
 
 ## Testing 
 
@@ -85,12 +85,19 @@ While testing throughout the project iI ran into a few bugs that I managed to re
 
 - Accessability
 
-  ![Google Lighthouse](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/lighthousescore.png)
+  ![Google Lighthouse]()
   - 100% Accessability Score via Google Lighthouse generated report 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamescrox.github.io%2FThe_Dirty_Bird%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjamescrox.github.io%2FStar-Wars-Quiz%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamescrox.github.io%2FThe_Dirty_Bird%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamescrox.github.io%2FStar-Wars-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+      - The following metrics were returned: 
+      - There are 7 functions in this file.
+      - Function with the largest signature take 1 arguments, while the median is 1.
+      - Largest function has 12 statements in it, while the median is 2.
+      - The most complex function has a cyclomatic complexity value of 4 while the median is 1.
 
 ## Deployment
 
@@ -99,7 +106,7 @@ While testing throughout the project iI ran into a few bugs that I managed to re
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://jamescrox.github.io/The_Dirty_Bird/index.html 
+The live link can be found here - https://jamescrox.github.io/Star-Wars-Quiz/index.html 
 
 ## Credits 
 
