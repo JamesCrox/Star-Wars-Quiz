@@ -81,7 +81,7 @@ Click to visit [Star Wars Quiz App](https://jamescrox.github.io/Star-Wars-Quiz/i
 The live link can be found here - https://jamescrox.github.io/Star-Wars-Quiz/index.html 
 
 ## Credits 
-
+For code inspiration and help throughout this module.
 - Web Dev Simplified - [Youtube Content Creator for web developers](https://www.youtube.com/c/WebDevSimplified/)
 - Brian Designs - [Youtube Content Creator for web developers](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A/)
 - Florin Pop - [Youtube Content Creator for web developers](https://www.youtube.com/c/FlorinPop/)
